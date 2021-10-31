@@ -1,0 +1,62 @@
+body {
+    padding: 0px 10px;
+}
+.start-date {
+    display: flex;
+    align-items: flex-end;
+}
+.start-date input {
+    width: 100px;
+}
+.delta-container {
+    display: flex;
+    align-items: center;
+}
+.delta-time input {
+    width: 100px;
+}
+#today {
+    margin: 10px 0px;
+}
+#add-or-sub {
+    margin-right: 10px;
+}
+#calculate {
+    margin: 10px 0px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px;
+    margin-top: 5px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(0, 0, 0, 0.6) transparent;
+}
+.form {
+    border: 3px solid blue;
+    padding: 10px;
+}

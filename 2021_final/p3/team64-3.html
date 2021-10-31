@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>第三題</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="team64-3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>圖片檔案管理系統</h1>
+            <a class="btn btn-primary" role="button" href="team64-3-2.html">新增圖片</a>
+        </div>
+        <div class="card">
+            <div class="card-header">所有檔案資訊</div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>圖片</th>
+                            <th>檔案名稱</th>
+                            <th>檔案大小</th>
+                            <th>檔案格式</th>
+                            <th>指令動作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img class="img-fluid" src="img1.png" alt="img1"></td>
+                            <td>img1.jpg</td>
+                            <td>9 KB</td>
+                            <td>jpg</td>
+                            <td>
+                                <button class="btn btn-success">檢視</button>
+                                <button class="btn btn-info">修改</button>
+                                <button class="btn btn-danger">刪除</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="team64-3.js"></script>
+</body>
+</html>

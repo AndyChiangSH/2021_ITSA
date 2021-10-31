@@ -1,0 +1,43 @@
+.topbar {
+    width: 100%;
+    background: rgb(80, 80, 80);
+    padding: 10px 0px;
+}
+
+.topbar {
+    color: white;
+    text-align: center;
+}
+
+.question {
+    width: 40%;
+    margin: 50px auto;
+}
+
+.question p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.question>div {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.button-container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.form-check {
+    margin: 10px 0px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    font-size: 30px;
+}

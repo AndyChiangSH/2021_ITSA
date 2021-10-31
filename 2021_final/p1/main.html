@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>第一題</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="topbar">
+        <h1>線上測驗</h1>
+    </div>
+    <div id="q1">
+        <div class="question">
+            <p>第一題?</p>
+            <div>
+                <form>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="a1" vaule="a1">
+                        <label class="form-check-label" for="a1">a：答案a1</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="b1" vaule="b1">
+                        <label class="form-check-label" for="b1">b：答案b1</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="c1" vaule="c1">
+                        <label class="form-check-label" for="c1">c：答案c1</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="d1" vaule="d1">
+                        <label class="form-check-label" for="d1">d：答案d1</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="button-container row">
+            <button id="next1" class="btn btn-primary col-12">
+                下一個問題
+            </button>
+        </div>
+    </div>
+    <div id="q2">
+        <div class="question">
+            <p>第二題?</p>
+            <div>
+                <form>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="a2" vaule="a2">
+                        <label class="form-check-label" for="a2">a：答案a2</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="b2" vaule="b2">
+                        <label class="form-check-label" for="b2">b：答案b2</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="c2" vaule="c2">
+                        <label class="form-check-label" for="c2">c：答案c2</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="d2" vaule="d2">
+                        <label class="form-check-label" for="d2">d：答案d2</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="button-container row">
+            <button id="pre2" class="btn btn-primary col-6">
+                前一個問題
+            </button>
+            <button id="next2" class="btn btn-primary col-6">
+                下一個問題
+            </button>
+        </div>
+    </div>
+    <div id="q3">
+        <div class="question">
+            <p>第三題?</p>
+            <div>
+                <form>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="a3" vaule="a3">
+                        <label class="form-check-label" for="a3">a：答案a3</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="b3" vaule="b3">
+                        <label class="form-check-label" for="b3">b：答案b3</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="c3" vaule="c3">
+                        <label class="form-check-label" for="c3">c：答案c3</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="InputRadios" id="d3" vaule="d3">
+                        <label class="form-check-label" for="d3">d：答案d3</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="button-container row">
+            <button id="pre3" class="btn btn-primary col-6">
+                前一個問題
+            </button>
+            <button id="submit" class="btn btn-primary col-6">
+                送出測驗
+            </button>
+        </div>
+    </div>
+    <div id="result">
+        <p>答對題數：<span id="correct-num">0</span></p>
+        <p>總題數：3</p>
+    </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

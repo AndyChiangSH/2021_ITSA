@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>第二題</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="team064.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>猜數字</h1>
+        <p>
+            <button class="btn btn-info" id="new">新局</button>
+            <select name="digit" id="digit">
+                <option value=3 selected>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+            </select>
+            位數字
+        </p>
+        <p>
+            輸入<span id="display-digit">3</span>位數字
+            <input type="text" name="guess" id="guess">
+            <button class="btn btn-primary" id="ok">OK</button>
+            <span id="error"></span>
+        </p>
+        <div class="result-container">
+            <p>猜數字歷程：</p>
+            <textarea name="result" id="result" cols="30" rows="10" readonly></textarea>
+        </div>
+        <button class="btn btn-success" id="show">顯示答案</button>
+    </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="team064.js"></script>
+</body>
+
+</html>
