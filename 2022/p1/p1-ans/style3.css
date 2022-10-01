@@ -1,0 +1,259 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+.flex {
+    padding: 20px;
+}
+
+.flex div {
+    width: 500px;
+    margin: 5px;
+}
+
+.img1 {
+    height: 325px;
+    background-image: url(../p1-ref/images/image01.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img1:hover {
+    height: 325px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image01.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img2 {
+    height: 750px;
+    background-image: url(../p1-ref/images/image02.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img2:hover {
+    height: 750px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image02.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img3 {
+    height: 750px;
+    background-image: url(../p1-ref/images/image03.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img3:hover {
+    height: 750px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image03.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img4 {
+    height: 375px;
+    background-image: url(../p1-ref/images/image04.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img4:hover {
+    height: 375px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image04.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img5 {
+    height: 750px;
+    background-image: url(../p1-ref/images/image05.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img5:hover {
+    height: 750px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image05.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img6 {
+    height: 333px;
+    background-image: url(../p1-ref/images/image06.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img6:hover {
+    height: 333px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image06.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img7 {
+    height: 625px;
+    background-image: url(../p1-ref/images/image07.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img7:hover {
+    height: 625px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image07.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img8 {
+    height: 380px;
+    background-image: url(../p1-ref/images/image08.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img8:hover {
+    height: 380px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image08.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img9 {
+    height: 750px;
+    background-image: url(../p1-ref/images/image09.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img9:hover {
+    height: 750px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image09.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img10 {
+    height: 333px;
+    background-image: url(../p1-ref/images/image10.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img10:hover {
+    height: 333px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image10.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img11 {
+    height: 750px;
+    background-image: url(../p1-ref/images/image11.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img11:hover {
+    height: 750px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image11.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img12 {
+    height: 750px;
+    background-image: url(../p1-ref/images/image12.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.img12:hover {
+    height: 750px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    background-blend-mode: multiply;
+    background-color: rgba(57,57,57,0.5);
+    background-image: url(../p1-ref/images/image12.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+div img {
+    width: 200px;
+    height: 300px;
+}
+
+
+
+.flex {
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: stretch; /*預設值*/
+    
+}
