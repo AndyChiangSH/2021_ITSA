@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>題目三：筆記管理系統</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="team048.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-3">題目三：筆記管理系統</h1>
+        <div class="row">
+            <div class="col-3 border text-center m-1 p-3">
+                <a href="./team048.html" class="btn btn-primary m-1">筆記清單</a>
+                <a href="./add_tag.html" class="btn btn-primary m-1">新增分類</a>
+                <a href="./add_note.html" class="btn btn-primary m-1">新增筆記</a>
+                <a href="./search_note.html" class="btn btn-primary m-1">查詢筆記</a>
+            </div>
+            <div class="col-8 border m-1 p-3">
+                <h2 class="text-center">新增分類</h2>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">輸入分類</label>
+                    <input id="add_tag_text" type="text" class="form-control" id="exampleFormControlInput1" placeholder="請輸入分類名稱">
+                </div>
+                <button id="add_tag_btn" class="btn btn-success">確認</button>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="team048.js"></script>
+</body>
+</html>

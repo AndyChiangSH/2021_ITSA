@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>題目三：筆記管理系統</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="team048.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-3">題目三：筆記管理系統</h1>
+        <div class="row">
+            <div class="col-3 border text-center m-1 p-3">
+                <a href="./team048.html" class="btn btn-primary m-1">筆記清單</a>
+                <a href="./add_tag.html" class="btn btn-primary m-1">新增分類</a>
+                <a href="./add_note.html" class="btn btn-primary m-1">新增筆記</a>
+                <a href="./search_note.html" class="btn btn-primary m-1">查詢筆記</a>
+            </div>
+            <div class="col-8 border m-1 p-3">
+                <h2 class="text-center">新增/修改筆記</h2>
+                <div class="mb-3">
+                    <label for="tag-select" class="form-label">選擇筆記分類</label>
+                    <select id="tag-select" class="form-select" aria-label="Default select example">
+                        <option selected>請選擇筆記分類</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="title" class="form-label">筆記標題</label>
+                    <input type="text" id="title" class="form-control" placeholder="請輸入筆記標題">
+                </div>
+                <div class="mb-3">
+                    <label for="content" class="form-label">筆記內容</label>
+                    <textarea class="form-control" id="content" rows="3" placeholder="請輸入筆記內容"></textarea>
+                  </div>
+                <button class="btn btn-success">確認</button>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="team048.js"></script>
+</body>
+</html>

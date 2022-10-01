@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>題目三：筆記管理系統</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="team048.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-3">題目三：筆記管理系統</h1>
+        <div class="row">
+            <div class="col-3 border text-center m-1 p-3">
+                <a href="./team048.html" class="btn btn-primary m-1">筆記清單</a>
+                <a href="./add_tag.html" class="btn btn-primary m-1">新增分類</a>
+                <a href="./add_note.html" class="btn btn-primary m-1">新增筆記</a>
+                <a href="./search_note.html" class="btn btn-primary m-1">查詢筆記</a>
+            </div>
+            <div class="col-8 border m-1 p-3">
+                <h2 class="text-center">查詢筆記</h2>
+                <div class="mb-3">
+                    <label for="title" class="form-label">筆記標題</label>
+                    <input type="text" id="title" class="form-control" placeholder="請輸入筆記標題">
+                </div>
+                <button class="btn btn-success">查詢</button>
+                <table class="table w-100">
+                    <thead>
+                        <tr>
+                            <th>標題名稱</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>花東三日遊</td>
+                            <td>
+                                <button class="btn btn-success m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">閱覽</button>
+                                <a href="./add_note.html" class="btn btn-warning m-1">修改</a>
+                                <a href="#" class="btn btn-danger m-1">刪除</a>
+                            </td>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">花東三日遊</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            好玩!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="team048.js"></script>
+</body>
+</html>
